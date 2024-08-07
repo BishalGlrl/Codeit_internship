@@ -1,0 +1,63 @@
+/* body {
+	background-color: #0f0f0f;
+	font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .maing {
+	background-color: #0d0d0d;
+  }
+  
+  header {
+	background-color: #1a1a1a;
+	color: #00ff00;
+  }
+  
+  nav {
+	background-color: #121212;
+  }
+  
+  a:hover {
+	color: #33ff33;
+  }
+  
+  button {
+	color: #ffffff;
+  }
+  
+  footer {
+	background-color: #121212;
+	color: #00ff00;
+  }
+   */
+ 
+   @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  .scrolling-wrapper {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+  }
+
+  .scrolling-content {
+    display: flex;
+    animation: scroll 20s linear infinite;
+  }
+
+  .scrolling-content > div {
+    flex-shrink: 0;
+    white-space: normal;
+  }
+  /* body {
+    font-family: 'Montserrat', sans-serif;
+  } */
+  body {
+      font-family: "Radio Canada Big", sans-serif;
+  }
